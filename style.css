@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Candara;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(assest/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg);
+    background-position: 20% 40%;
+    background-size: cover;
+    color: white;
+}
+
+#bottom{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+}
+
+
+#bone{
+    width: 20%;
+    min-height: inherit;
+    padding: 40px 30px;
+    background-color:#6a6565;
+    color:white;
+}
+
+#bone h4{
+    font-size: 1.2vw;
+}
+
+#bone p{
+    font-size: 1vw;
+    margin-top: 20px;
+    margin-left: 1vw;
+}
+
+
+
+#btwo{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(assest/daniel-korpai-HyTwtsk8XqA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bthree{
+    width: 22%;
+    min-height: inherit;
+    background-color:#e6ebec;
+}
+
+#bthreetop{
+    width: 100%;
+    height: 13vh;
+    background-color:#e6ebec;
+    padding: 20px;
+    color:black;
+}
+
+#bthreetop h4{
+    font-size: 1vw;
+    
+}
+
+#bthreetop p{
+    font-size: 0.9vw;
+    margin-top: 15px;
+    margin-left: 1vw;
+}
+
+#bthreebottom{
+    width: 100%;
+    height: 27vh;
+    background-image: url(assest/windows-Bnl5yt3SNsM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour{
+    width: 28%;
+    min-height: inherit;
+    background-color:black;
+    color: #fff;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.notf{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#bfour h1{
+    font-size: 17px;
+}
+
+.notf img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#overlay{
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.466);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0vw 5vw;
+}
+
+#overlaytop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#overlaytop img{
+    width: 14vw;
+}
+
+#overlaytop #topright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#overlaytop #topright i{
+    font-size: 20px;
+}
+
+#overlaybottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    gap: 50px;
+}
+
+#textarea p{
+    font-size: 15px;
+    text-align: justify;
+    width: 35%;
+}
+
+#overlaybottom h1{
+    font-size: 8vw;
+    font-weight: 500;
+}
+
+#page2{
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgb(0, 0, 0);
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:0.5vw;
+}
+
+#page2 #page2top{
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    gap: 1vw;
+}
+
+#page2 #page2top #elem1{
+    width: 35%;
+    height: inherit;
+    background-image: url(assest/web_development.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2top #elem2{
+    width: 40%;
+    height: inherit;
+    background-image: url(assest/app\ development.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2top #elem3{
+    width: 25%;
+    height: inherit;
+    background-image: url(assest/UI_UX.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2middle{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    gap:1vw;
+}
+
+#page2 #page2middle #elem4{
+    width: 50%;
+    height: inherit;
+    background-image: url(assest/python.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2middle #elem5{
+    width: 50%;
+    height: inherit;
+        background-image: url(assest/java.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2bottom{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    gap: 1vw;
+}
+
+#page2 #page2bottom #elem6{
+    width: 33%;
+    height: inherit;
+    background-image: url(assest/php.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2bottom #elem7{
+    width: 33%;
+    height: inherit;
+        background-image: url(assest/AI\ Robotics.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #page2bottom #elem8{
+    width: 33%;
+    height: inherit;
+        background-image: url(assest/IOT.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 .elem:hover {
+    cursor: pointer;
+}
+
+
+#page3{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 1vw 3vw;
+}
+
+#page3 h1{
+    width: 100%;
+    height: 10vh;
+    color: white;
+}
+
+#page3 #page3con{
+    width: 100%;
+    min-height: calc(100vh - 20vh);
+    background-color: black;
+    display: flex;
+    
+}
+
+#page3 #page3con #page3left{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#page3 #page3con #page3left #imgsection{
+    height: 300px;
+    width: 300px;
+    background-image: url(assest/1693748049349~2.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#page3 #page3con #page3left p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    
+}
+
+#page3 #page3con #page3right{
+    width: 50%;
+    height: 80vh;
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3 #page3con #page3right form{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(240, 234, 234, 0.884); */
+    background-color: none;
+    box-shadow: 2px 3px 10px 5px white;
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    border-radius: 20px;
+    color: white;
+}
+
+form h1{
+    text-align: center;
+}
+
+#page3 #page3con #page3right form .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+#page3right form .row label{
+    width: 30%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#page3right form .row input{
+    width: 70%;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    padding: 1vw;
+}
+
+#page3right form .row select{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5vw;
+}
+
+form button{
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0.6vw 2vw;
+}
+
+form button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.elemoverlay{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.575);
+    scale: 0;
+    transition: all ease 1s;
+}
+
+.elemoverlay button{
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 1px 1px 5px 2px white;
+}
+
+.elemoverlay button:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 5px 2px rgb(176, 210, 238);
+}
+
+.elemoverlay h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.elem:hover .elemoverlay{
+    opacity:1;
+    scale: 1;
+    transform: translateY();
+}
+
+
+
+@media (max-width:550px){
+
+    #overlay{
+        min-height: inherit;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10vw 8vw;
+        gap: 10vw;
+    }
+    
+    #overlaytop img{
+        width: 50vw;
+    }
+
+    #overlaybottom{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10vw;
+        gap: 50px;
+    }
+
+    #overlaybottom h1{
+        font-size: 20vw;
+        font-weight: 500;
+        margin-bottom:1vh ;
+    }
+
+    #overlaybottom #textarea{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #overlaybottom #textarea p{
+        width: 100%;
+    }
+
+
+    #bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #bone{
+        width: 100%;
+    }
+
+    #bone h4{
+        font-size: 5vw;
+    }
+    
+    #bone p{
+        font-size: 4vw;
+        margin-top: 20px;
+        margin-left: 4vw;
+    }
+
+    #btwo{
+        width: 100%;
+    }
+
+    #bthree{
+        width: 100%;
+    }
+
+    #bthreetop{
+           height: 20vh; 
+    }
+
+    #bthreetop h4{
+        font-size: 5vw;
+        
+    }
+    
+    #bthreetop p{
+        font-size: 4vw;
+        margin-top: 20px;
+        margin-left: 1vw;
+    }
+
+    #bthreebottom{
+        height: 40vh; 
+ }
+
+    #bfour{
+        width: 100%;
+    }
+
+}
